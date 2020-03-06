@@ -7,12 +7,12 @@
 
 using namespace sf;
 
-class EvoVillageGame
+class SimpleGame
 {
 private:
     RenderWindow m_Window;
     std::shared_ptr<Screen> m_activeScreen;
 public:
-    EvoVillageGame();
+    SimpleGame();
     void start();
 };

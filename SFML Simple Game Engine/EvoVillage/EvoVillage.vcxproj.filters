@@ -24,10 +24,10 @@
     <ClCompile Include="src\GameScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\EvoVillageGame.cpp">
+    <ClCompile Include="src\MainMenuScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\MainMenuScreen.cpp">
+    <ClCompile Include="src\SimpleGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,13 +41,13 @@
     <ClInclude Include="include\GameScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\EvoVillageGame.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\MainMenuScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\EScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimpleGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

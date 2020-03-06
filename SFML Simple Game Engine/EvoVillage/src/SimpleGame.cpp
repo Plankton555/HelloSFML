@@ -1,6 +1,6 @@
-#include "EvoVillageGame.h"
+#include "SimpleGame.h"
 
-EvoVillageGame::EvoVillageGame()
+SimpleGame::SimpleGame()
 {
     Vector2f resolution;
     resolution.x = VideoMode::getDesktopMode().width;
@@ -9,7 +9,7 @@ EvoVillageGame::EvoVillageGame()
     m_Window.create(VideoMode(resolution.x, resolution.y), "Simple Game Engine", Style::Default /*Style::Fullscreen*/);
 }
 
-void EvoVillageGame::start()
+void SimpleGame::start()
 {
     Clock clock;
 

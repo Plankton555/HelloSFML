@@ -158,14 +158,14 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="src\Bob.cpp" />
-    <ClCompile Include="src\EvoVillageGame.cpp" />
+    <ClCompile Include="src\SimpleGame.cpp" />
     <ClCompile Include="src\GameScreen.cpp" />
     <ClCompile Include="src\MainMenuScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Bob.h" />
     <ClInclude Include="include\EScreen.h" />
-    <ClInclude Include="include\EvoVillageGame.h" />
+    <ClInclude Include="include\SimpleGame.h" />
     <ClInclude Include="include\GameScreen.h" />
     <ClInclude Include="include\MainMenuScreen.h" />
     <ClInclude Include="include\Screen.h" />
