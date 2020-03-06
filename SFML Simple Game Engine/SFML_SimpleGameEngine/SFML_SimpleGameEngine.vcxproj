@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{6236cf20-597f-4adb-9fc0-b6cddee3adaa}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>EvoVillage</RootNamespace>
+    <RootNamespace>SFML_SimpleGameEngine</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>SFML_SimpleGameEngine</ProjectName>
   </PropertyGroup>
