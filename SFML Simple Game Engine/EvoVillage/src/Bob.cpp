@@ -3,7 +3,7 @@
 Bob::Bob()
 {
     m_Speed = 400;
-    m_Texture.loadFromFile("bob.png");
+    m_Texture.loadFromFile("assets/bob.png");
     m_Sprite.setTexture(m_Texture);
 
     m_Position.x = 500;
@@ -35,16 +35,16 @@ void Bob::stopRight()
     m_RightPressed = false;
 }
 
-void Bob::update(float elapsedTime)
+void Bob::update(float dt)
 {
     if (m_RightPressed)
     {
-        m_Position.x += m_Speed * elapsedTime;
+        m_Position.x += m_Speed * dt;
     }
 
     if (m_LeftPressed)
     {
-        m_Position.x -= m_Speed * elapsedTime;
+        m_Position.x -= m_Speed * dt;
     }
 
     m_Sprite.setPosition(m_Position);

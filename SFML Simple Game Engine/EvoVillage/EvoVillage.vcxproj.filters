@@ -18,27 +18,36 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bob.cpp">
+    <ClCompile Include="src\Bob.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Engine.cpp">
+    <ClCompile Include="src\GameScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Input.cpp">
+    <ClCompile Include="src\EvoVillageGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Update.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Draw.cpp">
+    <ClCompile Include="src\MainMenuScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Bob.h">
+    <ClInclude Include="include\Bob.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Engine.h">
+    <ClInclude Include="include\Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EvoVillageGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainMenuScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
